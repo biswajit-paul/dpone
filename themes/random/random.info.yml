@@ -1,0 +1,15 @@
+name: Random
+description: A simple bootstrap made custom theme
+type: theme
+core: 8.x
+version: VERSION
+basetheme: false
+
+libraries:
+  - random/global-styling
+
+regions:
+  main_navigation: 'Top Menu'
+  content: Content
+  sidebar: Sidebar
+  footer: Footer  
